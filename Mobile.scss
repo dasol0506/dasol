@@ -1,0 +1,25 @@
+@media only screen and (max-width: 390px) {
+    .header{
+        max-width: 390px;
+        width: 100%;
+        gap: 240px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        box-sizing: border-box;
+        .logo_img{
+            padding-top: 5px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+    }
+    .header .main_menu {
+        display: none;
+    }
+    .header .mobile{
+        display: block;
+    }
+}
+.main{
+    display: none;
+}

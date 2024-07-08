@@ -1,0 +1,261 @@
+body{
+        font-family: 'Pretendard-Regular';
+        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+}
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    left:0px;
+    top:10px;
+    right:0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #FFDB00;
+    .main_menu{
+        display:flex;
+        gap:15px;
+        font-size: 16px;
+        font-weight: 500;
+        
+    }
+    .mobile{
+        display: none;
+    }
+}
+.moblie_main{
+    display: none;
+}
+.main{
+    display: block;
+    position: relative;
+    background-color: #0E1726;
+    display: flex;
+    margin-top: 42px;
+    left: 0px;
+    right:0px;
+    height: calc(100vh - 42px);
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    .main_licon{
+        position: absolute;
+        left: 40px;
+        top: 400px;
+        bottom: 400px;
+        
+    }
+    .main_Unoon{
+        position: absolute;
+        width:80%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+        img{
+            width:100%;
+        }
+    }
+    .maoin_frame{
+        position: absolute;
+        right:20px;
+        top:calc(50% - 32px);
+        display:inline-block
+
+    }
+}
+.MENU{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 50px;
+    .class_MENU_img{
+        position: absolute;
+        
+    }
+    .class_MENU{
+        position: absolute;
+        font-size: 40px;
+        font-weight: 500;
+        padding-top: 14px;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+}
+.mainl_icons{
+    padding-top: 150px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    .main_licon{
+        .pizza{
+            font-size: 32px;
+            width: 500;
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+            box-sizing: border-box;
+            &.drink_itme{
+                padding-left: 9px;
+                box-sizing: border-box;
+            }
+        }
+
+        .licon_item{
+            border-radius: 50%;
+            border: 3px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            &.pizza_licon{
+                padding-right:5px;
+                padding-bottom: 5px;;
+                box-sizing: border-box;
+            }
+            &.drink_licon{
+                padding-left: 5px;
+                box-sizing: border-box;
+            }
+            img{
+                width: 100px;
+            }
+
+        }
+
+    }
+}
+.pizzas{
+    background-image: url('./img/back.png');
+    margin-top: 100px;
+    width:100%;
+    height: 25vh;
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    gap: 30px;
+
+    .buttons{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        gap: 1780px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 185px;
+        box-sizing: border-box;
+
+    }
+    
+
+    .pizza_main{
+        position: relative;
+        border-radius: 5%;
+        background: linear-gradient(to bottom, #fff, #D9D9D9);
+        overflow: hidden;
+        width: 400px;
+        height: 550px;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        
+        img{
+            border-radius: 5%;
+            overflow: hidden;
+            width: 100%;
+            
+        }
+        .pizza_class1{
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 40px;
+            box-sizing: border-box;
+        }
+        .pizza_class2{
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            box-sizing: border-box;
+        }
+    }
+}
+.introduction{
+  
+    margin-top: 500px;
+    position: relative;
+    .cpks{
+        padding-left: 50px;
+        box-sizing: border-box;
+        font-size: 6vw;
+        width: 500;
+        .cpk1{
+            padding-left: 40px;
+            padding-bottom: 30px;
+            box-sizing: border-box;
+        }
+        .cpk2{
+            padding-left: 600px;
+            padding-bottom: 30px;
+            box-sizing: border-box;
+        }
+        .cpk3{
+            padding-left: 200px;
+            box-sizing: border-box;
+        }
+
+    }
+    .cpk_Company{
+        font-size: 24px;
+        padding-left: 100px;
+        padding-top: 150px;
+        box-sizing: border-box;
+        width: 50%;
+
+    }
+    .cpk_img{
+        width: 50%;
+        position: absolute;
+        right:0px;
+        top:0px;
+        img{
+            width: 100%;
+        }
+
+    }
+}
+.banner{
+    background-color: #232323;
+    font-size: 11px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    margin-top: 300px;
+}
